@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 @Api(tags = "测试接口")
 public class TestController {
 
+    /**
+     * http://localhost:8080/swagger-ui.html
+     */
     @ApiOperation("")
     @RequestMapping(value = "/test", method = RequestMethod.GET)
     public void test() {
