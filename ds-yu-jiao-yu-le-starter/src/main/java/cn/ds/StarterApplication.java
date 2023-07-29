@@ -7,7 +7,6 @@ import org.springframework.context.annotation.ComponentScans;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
-@ComponentScan({"cn.ds.config","cn.ds.controller"})
 public class StarterApplication {
 
     public static void main(String[] args) {

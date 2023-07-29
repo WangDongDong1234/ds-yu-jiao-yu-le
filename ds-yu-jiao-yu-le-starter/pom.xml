@@ -32,6 +32,36 @@
             <artifactId>ds-yu-jiao-yu-le-restful</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>ds-yu-jiao-yu-le-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>ds-yu-jiao-yu-le-application</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>ds-yu-jiao-yu-le-repository</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>ds-yu-jiao-yu-le-infrastructure</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>ds-yu-jiao-yu-le-service-impl</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>ds-yu-jiao-yu-le-domain</artifactId>
+        </dependency>
+
 
     </dependencies>
 

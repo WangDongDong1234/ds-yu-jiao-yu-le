@@ -28,6 +28,11 @@
     </properties>
 
     <modules>
+        <module>ds-yu-jiao-yu-le-application</module>
+        <module>ds-yu-jiao-yu-le-repository</module>
+        <module>ds-yu-jiao-yu-le-domain</module>
+        <module>ds-yu-jiao-yu-le-infrastructure</module>
+        <module>ds-yu-jiao-yu-le-service-impl</module>
         <module>ds-yu-jiao-yu-le-restful</module>
         <module>ds-yu-jiao-yu-le-starter</module>
     </modules>
@@ -45,6 +50,37 @@
                 <artifactId>ds-yu-jiao-yu-le-starter</artifactId>
                 <version>${project.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>ds-yu-jiao-yu-le-application</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>ds-yu-jiao-yu-le-repository</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>ds-yu-jiao-yu-le-infrastructure</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>ds-yu-jiao-yu-le-service-impl</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.example</groupId>
+                <artifactId>ds-yu-jiao-yu-le-domain</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
 
             <!--SpringBoot与Redis整合依赖-->
             <dependency>

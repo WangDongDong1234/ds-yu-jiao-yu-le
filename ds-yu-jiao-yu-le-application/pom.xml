@@ -7,26 +7,23 @@
         <artifactId>ds-yu-jiao-yu-le</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-
     <groupId>com.example</groupId>
-    <artifactId>ds-yu-jiao-yu-le-restful</artifactId>
+    <artifactId>ds-yu-jiao-yu-le-application</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-
-    <name>ds-yu-jiao-yu-le-restful</name>
+    <name>ds-yu-jiao-yu-le-application</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>com.example</groupId>
+            <artifactId>ds-yu-jiao-yu-le-domain</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
@@ -39,22 +36,8 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger2</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>ds-yu-jiao-yu-le-application</artifactId>
-        </dependency>
     </dependencies>
+
 
 
 </project>
