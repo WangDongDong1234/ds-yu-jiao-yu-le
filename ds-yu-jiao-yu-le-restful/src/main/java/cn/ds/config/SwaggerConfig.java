@@ -42,10 +42,10 @@ public class SwaggerConfig
     }
     public ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("springboot利用swagger2构建api接口文档 "+"\t"+ DateTimeFormatter.ofPattern("yyyy-MM-dd").format(LocalDateTime.now()))
-                .description("springboot+redis整合,有问题给管理员阳哥邮件:zzyybs@126.com")
-                .version("1.0")
-                .termsOfServiceUrl("https://www.atguigu.com/")
+                .title("寓教于乐api接口文档 "+"\t"+ DateTimeFormatter.ofPattern("yyyy-MM-dd").format(LocalDateTime.now()))
+//                .description("springboot+redis整合,有问题给管理员阳哥邮件:zzyybs@126.com")
+//                .version("1.0")
+//                .termsOfServiceUrl("https://www.atguigu.com/")
                 .build();
     }
 }
